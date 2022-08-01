@@ -3,7 +3,9 @@ const app = express()
 const cors = require ('cors')
 const filmRoutes = require('./routes/filmRoutes')
 const bodyParser = require('body-parser')
+
 /*
+Cors Policy
 const https = require('https')
 const path = require('path')
 const fs = require('fs')
