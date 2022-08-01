@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": process.env.lamuser,
-    "password": process.env.lampass,
-    "database": process.env.lamuser,
-    "host": process.env.lamhost,
+    "username": process.env.LAMUSER,
+    "password": process.env.LAMPASS,
+    "database": process.env.LAMUSER,
+    "host": process.env.LAMHOST,
     "dialect": "mysql"
   },
   "test": {
-    "username": process.env.lamuser,
-    "password": process.env.lampass,
-    "database": process.env.lamuser,
-    "host": process.env.lamhost,
+    "username": process.env.LAMUSER,
+    "password": process.env.LAMPASS,
+    "database": process.env.LAMUSER,
+    "host": process.env.LAMHOST,
     "dialect": "mysql"
   },
   "production": {
-    "username": process.env.lamuser,
-    "password": process.env.lampass,
-    "database": process.env.lamuser,
-    "host": process.env.lamhost,
+    "username": process.env.LAMUSER,
+    "password": process.env.LAMPASS,
+    "database": process.env.LAMUSER,
+    "host": process.env.LAMHOST,
     "dialect": "mysql"
   }
 }
